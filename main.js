@@ -114,14 +114,14 @@ console.log("pets with turtle:", pets);
 //    * Console.log `numbers` and run the program.
 
 let numbers = [23, 45, 0, 2, 8, 44, 100, 1, 3, 91, 34];
-let map = numbers.map((x) => x + 2);
-console.log("map", map);
+// let map = numbers.map((x) => x + 2);
+// console.log("map", map)
 
 numbers.forEach(addTwo);
 function addTwo(item, index, arr) {
   arr[index] = item + 2;
 }
-// const addTwo = (item, index, arr) => (arr[index] = item + 2);
+// const addTwo = (item, index, arr) => (arr[index] = item + 2);     same as line 121
 console.log("add two:", numbers);
 
 // ### Hints
